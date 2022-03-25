@@ -1,0 +1,67 @@
+* {
+  font-family: "Racing Sans One", cursive;
+}
+
+h1 {
+  color: silver;
+  text-align: center;
+  font-size: 47px;
+}
+
+body {
+  min-height: 100%;
+  background-image: url("/images/FL22_Mecum Kissimmee 2022_1994 Porsche 911 Turbo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-container {
+  text-align: center;
+  width: 75vw;
+  height: 25vh;
+  margin: auto;
+  background-color: aqua;
+  opacity: 0.6;
+}
+
+.question-container {
+  text-align: center;
+  font-size: 38px;
+}
+
+.btn-grid {
+  display: flex;
+  background-color: aqua;
+  display: grid;
+  justify-content: center;
+  align-content: space-between;
+  height: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn {
+  display: grid;
+  border: 2px solid black;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.next-button {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.nxtbtn {
+  font-size: 22px;
+  border: 2px solid black;
+}
+
+.btn:hover {
+  border-color: orangered;
+}
